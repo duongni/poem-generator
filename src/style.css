@@ -77,3 +77,20 @@ footer {
   border-left: 3px solid #121f2f;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
+
+.wrapper {
+  gap: 6px;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+small {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.hidden {
+  display: none;
+}

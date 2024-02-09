@@ -7,26 +7,30 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 
-    <title>Poem Generator</title>
+    <title>Vietnamese Poem Generator</title>
   </head>
   <body>
     <div class="container">
-      <h1>AI Poem Generator</h1>
+      <h1>AI Vietnamese Poem Generator</h1>
 
       <main>
         <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instruction"
-            id="prompt"
-          />
+          <div class="wrapper">
+            <input
+              type="text"
+              placeholder="Enter your topic to generate a Vietnamese poem."
+              autofocus
+              required
+              autocomplete="off"
+              class="instruction"
+              id="prompt"
+            />
+            <small>i.e: Flower, Paris, Childhood</small>
+          </div>
+
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem" id="poem">
+        <div class="poem hidden" id="poem">
           The poem will be generate and display here
         </div>
       </main>
