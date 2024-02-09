@@ -90,7 +90,65 @@ small {
   font-size: 12px;
   opacity: 0.7;
 }
-
+form {
+  gap: 16px;
+  padding: 20px;
+}
 .hidden {
   display: none;
+}
+
+@media screen and (min-width: 350px) {
+  .container {
+    max-width: 350px;
+    margin: 20px auto;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  footer {
+    font-size: 10px;
+  }
+  small {
+    font-size: 10px;
+  }
+  .instruction {
+    font-size: 12px;
+  }
+  .poem {
+    font-size: 14px;
+  }
+  .submit-button {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .container {
+    max-width: 375px;
+    margin: 100px auto;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  footer {
+    font-size: 10px;
+  }
+  small {
+    font-size: 10px;
+  }
+  .instruction {
+    font-size: 12px;
+  }
+  .poem {
+    font-size: 14px;
+  }
+  .submit-button {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 610px) {
+  .container {
+    margin: 120px auto;
+    max-width: 600px;
+  }
 }
